@@ -57,6 +57,201 @@
 
     @yield('name')
 
+
+    <!--- MODAL Creative House --->
+    <div class="modal fade" id="CreativeHouse" tabindex="-1" aria-labelledby="CreativeHouse" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="CreativeHouse">BTL</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/btl.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/btl1.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/btl2.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                    <p>...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="ARQUITECTURA" tabindex="-1" aria-labelledby="ARQUITECTURA" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ARQUITECTURA">ARQUITECTURA EFÌMERA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/arquitectura.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/arquitectura1.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/arquitectura2.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                    <p>...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="CAMPAÑAS" tabindex="-1" aria-labelledby="CAMPAÑAS" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="CAMPAÑAS">CAMPAÑAS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="MATERIAL" tabindex="-1" aria-labelledby="MATERIAL PROMOCIONAL" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="MATERIAL">MATERIAL PROMOCIONAL</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--- END MODAL Creative House --->
+
+    <!--- MODAL Creative House --->
+    <div class="modal fade" id="INTERNET_DEDICADO" tabindex="-1" aria-labelledby="INTERNET_DEDICADO"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="INTERNET_DEDICADO">INTERNET DEDICADO</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="VIDEO_STREAMING" tabindex="-1" aria-labelledby="VIDEO_STREAMING" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="VIDEO_STREAMING">VIDEO STREAMING</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="VIDEO_CONFERENCIA" tabindex="-1" aria-labelledby="VIDEO_CONFERENCIA"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="VIDEO_CONFERENCIA">VIDEO CONFERENCIA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="SOFTWARE" tabindex="-1" aria-labelledby="SOFTWARE DE REGISTRO" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SOFTWARE DE REGISTRO">SOFTWARE DE REGISTRO</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--- END MODAL Creative House --->
+
     <footer class="bg-dark text-white text-center text-lg-start">
         <div class="container p-4">
             <div class="row">
@@ -71,8 +266,8 @@
 
                     </p>
                     <p>
-                        <span>Cra ## ### ####</span>
-                        <span>Cali, Valle del Cauca</span>
+                        <strong>Cra ## ### ####</strong>
+                        <strong>Cali, Valle del Cauca</strong>
                     </p>
                     <p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
@@ -84,7 +279,7 @@
 
                     </p>
                     <p>
-                        <span>Telefono <a href="tel:+57" class="text-white">3114360830</a></span>
+                        <strong>Telefono <a href="tel:+57" class="text-white">3114360830</a></strong>
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-4 mb-1 mb-md-0">
@@ -97,8 +292,8 @@
 
                     </p>
                     <p>
-                        <span>Email : <a href="mailto:info@bridge.com.co"
-                                class="text-white">info@bridge.com.co</a></span>
+                        <strong>Email : <a href="mailto:info@bridge.com.co"
+                                class="text-white">info@bridge.com.co</a></strong>
 
                     </p>
                     <p>
@@ -124,7 +319,7 @@
             </div>
             <hr>
             <div class="row">
-                <div class="col-lg-5 col-md-12 mb-0 mb-md-0">
+                <div class="col-12">
                     <a href="#" type="button" class="btn btn-dark">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                             class="bi bi-facebook" viewBox="0 0 16 16">

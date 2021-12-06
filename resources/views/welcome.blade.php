@@ -8,13 +8,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{ asset('img/home-slider-6.jpg') }}" class="d-block w-100" alt="page not Found">
+                <img src="{{ asset('img/presentacion/home-slider-6.jpg') }}" class="d-block w-100" alt="page not Found">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/home-slider-6.jpg') }}" class="d-block w-100" alt="page not Found">
+                <img src="{{ asset('img/presentacion/home-slider-6.jpg') }}" class="d-block w-100" alt="page not Found">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('img/home-slider-6.jpg') }}" class="d-block w-100" alt="page not Found">
+                <img src="{{ asset('img/presentacion/home-slider-6.jpg') }}" class="d-block w-100" alt="page not Found">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
@@ -39,20 +39,8 @@
                 mejor de las últimas tendencias de la publicidad y la comunicación.</p>
         </div>
 
-        <div class="text-center text-muted">
-            <h1>Quiènes Somos</h1>
-        </div>
-        <div class="jumbotron">
-            <p class="lead">Somos un grupo integral comprometido con las
-                nuevas ideas, la creatividad y la cultura.</p>
-            <hr class="my-4">
-            <p class="lead">Gracias a nuestra amplia experiencia en manejo de
-                eventos, estamos siempre a la vanguardia con las
-                exigencias y necesidades de nuestros clientes.</p>
-            <hr class="my-4">
-            <p class="lead">Teniendo presente el entorno, vamos creando
-                soluciones a su realidad empresarial.</p>
-        </div>
+
+
         <div class="text-center">
             <h1 class="text-danger">Bridge</h1>
             <h1 class="text-danger">Creative House</h1>
@@ -71,7 +59,6 @@
             las mejores
             soluciones.
         </h5>
-
         <div class="card-deck">
             <div class="card">
                 <div class="card-body">
@@ -94,6 +81,75 @@
                     <a href="#" data-toggle="modal" data-target="#CAMPAÑAS" class="stretched-link"></a>
                 </div>
             </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-danger">Creative House</h5>
+                    <p class="card-text text-dark"><strong>MATERIAL PROMOCIONAL</strong></p>
+                    <a href="#" data-toggle="modal" data-target="#MATERIAL" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="text-center">
+            <h1 class="text-danger">Bridge</h1>
+            <h1 class="text-danger">TI SOLUTIONS</h1>
+        </div>
+        <h5>
+            <p>Tenemos para su empresa la mejor
+                plataforma tecnológica.</p>
+            <p>
+                Ofrecemos varias soluciones
+                tecnológicas, que van desde la
+                cobertura de internet en lugares de
+                difícil acceso, hasta la creación de
+                software para registros y
+                acreditaciones en eventos masivos.</p>
+        </h5>
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-danger">TI SOLUTIONS</h5>
+                    <p class="card-text text-dark"><strong>INTERNET DEDICADO</strong></p>
+                    <a href="#" data-toggle="modal" data-target="#INTERNET_DEDICADO" class="stretched-link"></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-danger">TI SOLUTIONS</h5>
+                    <p class="card-text text-dark"><strong>VIDEO STREAMING</strong></p>
+                    <a href="#" data-toggle="modal" data-target="#VIDEO_STREAMING" class="stretched-link"></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-danger">TI SOLUTIONS</h5>
+                    <p class="card-text text-dark"><strong>VIDEO CONFERENCIA</strong></p>
+                    <a href="#" data-toggle="modal" data-target="#VIDEO_CONFERENCIA" class="stretched-link"></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-danger">TI SOLUTIONS</h5>
+                    <p class="card-text text-dark"><strong>SOFTWARE DE REGISTRO</strong></p>
+                    <a href="#" data-toggle="modal" data-target="#SOFTWARE" class="stretched-link"></a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="text-center text-muted">
+            <h1>Quiènes Somos</h1>
+        </div>
+        <div class="jumbotron">
+            <p class="lead">Somos un grupo integral comprometido con las
+                nuevas ideas, la creatividad y la cultura.</p>
+            <p class="lead">Gracias a nuestra amplia experiencia en manejo de
+                eventos, estamos siempre a la vanguardia con las
+                exigencias y necesidades de nuestros clientes.</p>
+            <p class="lead">Teniendo presente el entorno, vamos creando
+                soluciones a su realidad empresarial.</p>
         </div>
 
         <div class="text-center text-muted">
@@ -136,72 +192,11 @@
                 </div>
             </div>
         </div>
-        <button type="submit" class="btn btn-primary mb-5">Enviar</button>
+        <button type="submit" class="btn btn-primary mb-5">Enviar Mensaje</button>
         {!! Form::close() !!}
-    </div>
-
-    <div class="modal fade" id="CreativeHouse" tabindex="-1" aria-labelledby="CreativeHouse" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="CreativeHouse">BTL</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
-    <div class="modal fade" id="ARQUITECTURA" tabindex="-1" aria-labelledby="ARQUITECTURA" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="ARQUITECTURA">ARQUITECTURA EFÌMERA</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Las mejores ideas
-                    estructurales para
-                    tus eventos
-                    empresariales .
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="modal fade" id="CAMPAÑAS" tabindex="-1" aria-labelledby="CAMPAÑAS" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="CAMPAÑAS">CAMPAÑAS</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Las mejores
-                    ideas
-                    vanguardistas
-                    para impulsar
-                    su marca
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
+
     </div>
 @endsection
