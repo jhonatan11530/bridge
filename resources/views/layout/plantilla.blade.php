@@ -22,7 +22,6 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">
             <img src="{{ asset('img/BRIDGE-LOGO.png') }}" class="d-inline-block align-top" alt="page not Found">
@@ -34,22 +33,16 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">INICIO</a>
+                    <a class="nav-link" href="/">INICIO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">EQUIPO</a>
+                    <a class="nav-link" href="/equipo">EQUIPO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">SERVICIOS</a>
+                    <a class="nav-link" href="/servicio">SERVICIOS</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="#">STREAMING</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#">IN HOUSE</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#">CONTACTO</a>
+                    <a class="nav-link" href="/contacto">CONTACTO</a>
                 </li>
             </ul>
         </div>
@@ -57,10 +50,8 @@
 
     @yield('name')
 
-
-    <!--- MODAL Creative House --->
     <div class="modal fade" id="CREATIVEHOUSE" tabindex="-1" aria-labelledby="CreativeHouse" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="CreativeHouse">BTL</h5>
@@ -69,11 +60,11 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleIndicators0" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators0" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators0" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators0" data-slide-to="2"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -99,7 +90,7 @@
         </div>
     </div>
     <div class="modal fade" id="ARQUITECTURA" tabindex="-1" aria-labelledby="ARQUITECTURA" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="ARQUITECTURA">ARQUITECTURA EFÌMERA</h5>
@@ -138,7 +129,7 @@
         </div>
     </div>
     <div class="modal fade" id="CAMPAÑAS" tabindex="-1" aria-labelledby="CAMPAÑAS" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="CAMPAÑAS">CAMPAÑAS</h5>
@@ -172,7 +163,7 @@
         </div>
     </div>
     <div class="modal fade" id="MATERIAL" tabindex="-1" aria-labelledby="MATERIAL PROMOCIONAL" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="MATERIAL">MATERIAL PROMOCIONAL</h5>
@@ -205,12 +196,11 @@
             </div>
         </div>
     </div>
-    <!--- END MODAL Creative House --->
 
-    <!--- MODAL Creative House --->
+
     <div class="modal fade" id="INTERNET_DEDICADO" tabindex="-1" aria-labelledby="INTERNET_DEDICADO"
         aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="INTERNET_DEDICADO">INTERNET DEDICADO</h5>
@@ -241,7 +231,7 @@
     </div>
     <div class="modal fade" id="VIDEO_STREAMING" tabindex="-1" aria-labelledby="VIDEO_STREAMING"
         aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="VIDEO_STREAMING">INTERNET DEDICADO</h5>
@@ -272,7 +262,7 @@
     </div>
     <div class="modal fade" id="VIDEO_CONFERENCIA" tabindex="-1" aria-labelledby="VIDEO_CONFERENCIA"
         aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="VIDEO_CONFERENCIA">VIDEO CONFERENCIA</h5>
@@ -302,7 +292,7 @@
         </div>
     </div>
     <div class="modal fade" id="SOFTWARE" tabindex="-1" aria-labelledby="SOFTWARE DE REGISTRO" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="SOFTWARE DE REGISTRO">SOFTWARE DE REGISTRO</h5>
@@ -331,10 +321,11 @@
             </div>
         </div>
     </div>
-    <!--- END MODAL Creative House --->
+
+
     <div class="modal fade" id="OPERACION_LOGISTICA" tabindex="-1" aria-labelledby="OPERACION_LOGISTICA"
         aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="OPERACION_LOGISTICA">OPERACIÒN LOGÌSTICA</h5>
@@ -370,10 +361,11 @@
     </div>
     <div class="modal fade" id="DESARROLLO_PARTICIPACION" tabindex="-1" aria-labelledby="DESARROLLO_PARTICIPACION"
         aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="VIDEO_STREAMING">INTERNET DEDICADO</h5>
+                    <h5 class="modal-title" id="DESARROLLO_PARTICIPACION">DESARROLLO Y PARTICIPACIÒN DE EVENTOS
+                        MASIVOS</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -383,10 +375,16 @@
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators9" data-slide-to="0" class="active">
                             </li>
+                            <li data-target="#carouselExampleIndicators9" data-slide-to="1">
+                            </li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="{{ asset('img/VIDEO_STREAMING.jpeg') }}" class="d-block"
+                                <img src="{{ asset('img/DESARROLLO_PARTICIPACION1.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/DESARROLLO_PARTICIPACION2.jpeg') }}" class="d-block"
                                     style="width: 100%;height: 300px;" alt="image not found">
                             </div>
                         </div>
@@ -401,10 +399,10 @@
     </div>
     <div class="modal fade" id="EVENTOS_COORPORATIVOS" tabindex="-1" aria-labelledby="EVENTOS_COORPORATIVOS"
         aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="VIDEO_CONFERENCIA">VIDEO CONFERENCIA</h5>
+                    <h5 class="modal-title" id="EVENTOS_COORPORATIVOS">EVENTOS COORPORATIVOS</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -417,7 +415,7 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="{{ asset('img/VIDEO_CONFERENCIA.jpeg') }}" class="d-block"
+                                <img src="{{ asset('img/EVENTOS_COORPORATIVOS.jpeg') }}" class="d-block"
                                     style="width: 100%;height: 300px;" alt="image not found">
                             </div>
                         </div>
@@ -430,11 +428,12 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="PRODUCCION_AUDIOVISUAL" tabindex="-1" aria-labelledby="PRODUCCION_AUDIOVISUAL" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="modal fade" id="PRODUCCION_AUDIOVISUAL" tabindex="-1" aria-labelledby="PRODUCCION_AUDIOVISUAL"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="SOFTWARE DE REGISTRO">SOFTWARE DE REGISTRO</h5>
+                    <h5 class="modal-title" id="PRODUCCION_AUDIOVISUAL">PRODUCCION AUDIOVISUAL</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -444,10 +443,45 @@
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators11" data-slide-to="0" class="active">
                             </li>
+                            <li data-target="#carouselExampleIndicators11" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators11" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators11" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators11" data-slide-to="4"></li>
+                            <li data-target="#carouselExampleIndicators11" data-slide-to="5"></li>
+                            <li data-target="#carouselExampleIndicators11" data-slide-to="6"></li>
+                            <li data-target="#carouselExampleIndicators11" data-slide-to="7"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="{{ asset('img/SOFTWARE.jpeg') }}" class="d-block"
+                                <img src="{{ asset('img/PRODUCCION_AUDIOVISUAL1.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/PRODUCCION_AUDIOVISUAL2.png') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/PRODUCCION_AUDIOVISUAL3.png') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/PRODUCCION_AUDIOVISUAL4.png') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/PRODUCCION_AUDIOVISUAL5.png') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/PRODUCCION_AUDIOVISUAL6.png') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/PRODUCCION_AUDIOVISUAL7.png') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/PRODUCCION_AUDIOVISUAL8.png') }}" class="d-block"
                                     style="width: 100%;height: 300px;" alt="image not found">
                             </div>
                         </div>
@@ -460,7 +494,149 @@
             </div>
         </div>
     </div>
-    <!--- END MODAL Creative House --->
+
+
+    <div class="modal fade" id="DESARROLLO_CAMPAÑAS" tabindex="-1" aria-labelledby="DESARROLLO_CAMPAÑAS"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="DESARROLLO_CAMPAÑAS">DESARROLLO DE CAMPAÑAS ONLINE</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators12" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators12" data-slide-to="0" class="active">
+                            </li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/DESARROLLO_CAMPAÑAS.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                    <span>Teniendo muy
+                        presente que esta es
+                        la era de las
+                        estrategias digitales,
+                        creamos y
+                        desarrollamos las
+                        tácticas de campaña
+                        adecuadas para
+                        posicionar su
+                        empresa.<br>La digitalización sigue su
+                        evolución, la era de
+                        la movilidad, del Internet
+                        de las cosas seguirán
+                        transformando nuestro
+                        entorno, por eso es
+                        importante crear las
+                        estrategias digitales
+                        asertivamente y BRIDGE
+                        ENTERTAINMENT lo hace
+                        por su compañía.</span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="SOCIAL_MEDIA" tabindex="-1" aria-labelledby="SOCIAL_MEDIA" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SOCIAL_MEDIA">DESARROLLO DE CAMPAÑAS ONLINE</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators12" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators12" data-slide-to="0" class="active">
+                            </li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/SOCIAL_MEDIA.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                    <p>Abarcamos mercados
+                        influyentes en la actualidad y
+                        las Redes Sociales no podían
+                        ser la excepción.</p>
+                    <span>La importancia de las redes
+                        sociales en la actualidad es
+                        innegable, cada vez hay más
+                        redes sociales en internet
+                        pero, también cada vez están
+                        apareciendo redes sociales
+                        más especíﬁcas, con una red
+                        social especíﬁca, accedemos
+                        a mucha información
+                        clasiﬁcada y segmentada por
+                        el usuario.</span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="PRODUCCION_MULTIPLATAFORMA" tabindex="-1" aria-labelledby="SOCIAL_MEDIA"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="PRODUCCION_MULTIPLATAFORMA">PRODUCCIÒN MULTIPLATAFORMA NARRATIVA
+                        TRANSMEDIA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators13" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators13" data-slide-to="0" class="active">
+                            </li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                    <p>Nuestras campañas incluyen las
+                        herramientas
+                        como:</p>
+                    <ul>
+                        <li>Minería de Datos</li>
+                        <li>CRM</li>
+                        <li>Growth Hacking</li>
+                    </ul>
+                    <span>Tenemos alianzas con Google y
+                        Facebook para los análisis prospectivos
+                        de resultados y la ejecución de
+                        campañas que aprovechen técnicas como
+                        el remarketing y el re direccionamiento
+                        de contenidos.</span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <footer class="bg-dark text-white text-center text-lg-start">
         <div class="container p-4">
             <div class="row">
@@ -475,7 +651,7 @@
 
                     </p>
                     <p>
-                        <strong>Cra ## ### ####</strong>
+                        <strong>AV ## ### ####</strong>
                         <strong>Cali, Valle del Cauca</strong>
                     </p>
                     <p>
@@ -488,7 +664,10 @@
 
                     </p>
                     <p>
-                        <strong>Telefono <a href="tel:+57" class="text-white">3114360830</a></strong>
+                        <strong>Telefono: <a href="tel:+576024837979" class="text-white">(602)4837979</a></strong>
+                    </p>
+                    <p>
+                        <strong>Celular: <a href="tel:+573168303682" class="text-white">3168303682</a></strong>
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-4 mb-1 mb-md-0">
