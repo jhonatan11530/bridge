@@ -38,12 +38,10 @@
                 siempre en la naturaleza de la marca, sus objetivos estratégicos y los gustos de sus públicos, aplicando lo
                 mejor de las últimas tendencias de la publicidad y la comunicación.</p>
         </div>
-
-
-
+        <hr>
         <div class="text-center">
             <h1 class="text-danger">Bridge</h1>
-            <h1 class="text-danger">Creative House</h1>
+            <h1 style="color: #034959">CREATIVE HOUSE</h1>
         </div>
         <h5>
             Con 7 años de experiencia en el
@@ -64,7 +62,7 @@
                 <div class="card-body">
                     <h5 class="card-title text-danger">Creative House</h5>
                     <p class="card-text text-dark"><strong>BTL</strong></p>
-                    <a href="#" data-toggle="modal" data-target="#CreativeHouse" class="stretched-link"></a>
+                    <a href="#" data-toggle="modal" data-target="#CREATIVEHOUSE" class="stretched-link"></a>
                 </div>
             </div>
             <div class="card">
@@ -89,11 +87,10 @@
                 </div>
             </div>
         </div>
-
-
+        <hr>
         <div class="text-center">
             <h1 class="text-danger">Bridge</h1>
-            <h1 class="text-danger">TI SOLUTIONS</h1>
+            <h1 style="color: #0468BF">TI SOLUTIONS</h1>
         </div>
         <h5>
             <p>Tenemos para su empresa la mejor
@@ -135,9 +132,57 @@
                     <a href="#" data-toggle="modal" data-target="#SOFTWARE" class="stretched-link"></a>
                 </div>
             </div>
-
         </div>
-
+        <hr>
+        <div class="text-center">
+            <h1 class="text-danger">Bridge</h1>
+            <h1 style="color: #034959">OPC LOGÌSTICA</h1>
+        </div>
+        <h5>
+            <p>Más que una empresa prestadora
+                de servicios somos CULTURA,
+                apoyamos el talento de nuestro
+                país y por más de 6 años hemos
+                estado acompañando a diferentes
+                instituciones gubernamentales en
+                todo el territorio nacional, con el
+                gran compromiso de obtener la
+                mejor
+                respuesta
+                dirigida
+                a
+                nuestros clientes.</p>
+        </h5>
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-danger">OPC LOGÌSTICA</h5>
+                    <p class="card-text text-dark"><strong>OPERACIÒN LOGÌSTICA</strong></p>
+                    <a href="#" data-toggle="modal" data-target="#OPERACION_LOGISTICA" class="stretched-link"></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-danger">OPC LOGÌSTICA</h5>
+                    <p class="card-text text-dark"><strong>DESARROLLO Y PARTICIPACIÒN DE EVENTOS MASIVOS</strong></p>
+                    <a href="#" data-toggle="modal" data-target="#DESARROLLO_PARTICIPACION" class="stretched-link"></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-danger">OPC LOGÌSTICA</h5>
+                    <p class="card-text text-dark"><strong>EVENTOS COORPORATIVOS</strong></p>
+                    <a href="#" data-toggle="modal" data-target="#EVENTOS_COORPORATIVOS" class="stretched-link"></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-danger">OPC LOGÌSTICA</h5>
+                    <p class="card-text text-dark"><strong>PRODUCCION AUDIOVISUAL</strong></p>
+                    <a href="#" data-toggle="modal" data-target="#PRODUCCION_AUDIOVISUAL" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
 
         <div class="text-center text-muted">
             <h1>Quiènes Somos</h1>

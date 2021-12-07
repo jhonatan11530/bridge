@@ -25,7 +25,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">
-            <img src="{{ asset('img/BRIDGE-LOGO color.png') }}" class="d-inline-block align-top" alt="page not Found">
+            <img src="{{ asset('img/BRIDGE-LOGO.png') }}" class="d-inline-block align-top" alt="page not Found">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +59,7 @@
 
 
     <!--- MODAL Creative House --->
-    <div class="modal fade" id="CreativeHouse" tabindex="-1" aria-labelledby="CreativeHouse" aria-hidden="true">
+    <div class="modal fade" id="CREATIVEHOUSE" tabindex="-1" aria-labelledby="CreativeHouse" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -147,7 +147,23 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/CAMPAÑAS1.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/CAMPAÑAS2.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                    <p>...</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -165,7 +181,23 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/MATERIAL_PROMOCIONAL1.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/MATERIAL_PROMOCIONAL2.png') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                    <p>...</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -187,7 +219,19 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active">
+                            </li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/INTERNET_DEDICADO.png') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                    <p>...</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -195,17 +239,30 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="VIDEO_STREAMING" tabindex="-1" aria-labelledby="VIDEO_STREAMING" aria-hidden="true">
+    <div class="modal fade" id="VIDEO_STREAMING" tabindex="-1" aria-labelledby="VIDEO_STREAMING"
+        aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="VIDEO_STREAMING">VIDEO STREAMING</h5>
+                    <h5 class="modal-title" id="VIDEO_STREAMING">INTERNET DEDICADO</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active">
+                            </li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/VIDEO_STREAMING.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                    <p>...</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -224,7 +281,19 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators6" data-slide-to="0" class="active">
+                            </li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/VIDEO_CONFERENCIA.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                    <p>...</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -242,7 +311,19 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators7" data-slide-to="0" class="active">
+                            </li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/SOFTWARE.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                    <p>...</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -251,7 +332,135 @@
         </div>
     </div>
     <!--- END MODAL Creative House --->
-
+    <div class="modal fade" id="OPERACION_LOGISTICA" tabindex="-1" aria-labelledby="OPERACION_LOGISTICA"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="OPERACION_LOGISTICA">OPERACIÒN LOGÌSTICA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators8" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators8" data-slide-to="0" class="active">
+                            </li>
+                            <li data-target="#carouselExampleIndicators8" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/OPERACION_LOGISTICA1.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/OPERACION_LOGISTICA2.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                    <p>...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="DESARROLLO_PARTICIPACION" tabindex="-1" aria-labelledby="DESARROLLO_PARTICIPACION"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="VIDEO_STREAMING">INTERNET DEDICADO</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators9" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators9" data-slide-to="0" class="active">
+                            </li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/VIDEO_STREAMING.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                    <p>...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="EVENTOS_COORPORATIVOS" tabindex="-1" aria-labelledby="EVENTOS_COORPORATIVOS"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="VIDEO_CONFERENCIA">VIDEO CONFERENCIA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators10" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators10" data-slide-to="0" class="active">
+                            </li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/VIDEO_CONFERENCIA.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                    <p>...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="PRODUCCION_AUDIOVISUAL" tabindex="-1" aria-labelledby="PRODUCCION_AUDIOVISUAL" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SOFTWARE DE REGISTRO">SOFTWARE DE REGISTRO</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators11" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators11" data-slide-to="0" class="active">
+                            </li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/SOFTWARE.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                        </div>
+                    </div>
+                    <p>...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--- END MODAL Creative House --->
     <footer class="bg-dark text-white text-center text-lg-start">
         <div class="container p-4">
             <div class="row">
