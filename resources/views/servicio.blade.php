@@ -1,36 +1,27 @@
 @extends('layout.plantilla')
 @section('name')
-    <div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{ asset('img/presentacion/home-slider-6.jpg') }}" class="d-block w-100" alt="page not Found">
-            </div>
-            <div class="carousel-item">
-                <img src="{{ asset('img/presentacion/home-slider-6.jpg') }}" class="d-block w-100" alt="page not Found">
-            </div>
-            <div class="carousel-item">
-                <img src="{{ asset('img/presentacion/home-slider-6.jpg') }}" class="d-block w-100" alt="page not Found">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </button>
-    </div>
+    <style>
+        .asociaciones {
+            background-image: url("/img/OPERACION_LOGISTICA2.jpeg");
+            min-height: 150px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
 
     <div class="container-fluid text-center mb-5">
-        <div class="text-center">
-            <h1 class="text-danger">Bridge</h1>
-            <h1 style="color: #034959">CREATIVE HOUSE</h1>
+        <div class="asociaciones mb-5">
+            <div class="text-center center-block" style="color: white;">
+                <h1>
+                    <b><span class="text-danger">BRIDGE </span><span style="color: #034959">CREATIVE HOUSE</span></b>
+                </h1>
+            </div>
         </div>
         <h5>
             Con 7 años de experiencia en el
@@ -49,7 +40,6 @@
         <div class="card-deck">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">Creative House</h5>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
                     <p class="card-text text-dark"><strong>BTL</strong></p>
@@ -58,7 +48,6 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">Creative House</h5>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
                     <p class="card-text text-dark"><strong>ARQUITECTURA EFÌMERA</strong></p>
@@ -67,7 +56,6 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">Creative House</h5>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
                     <p class="card-text text-dark"><strong>CAMPAÑAS</strong></p>
@@ -76,7 +64,6 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">Creative House</h5>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
                     <p class="card-text text-dark"><strong>MATERIAL PROMOCIONAL</strong></p>
@@ -85,9 +72,12 @@
             </div>
         </div>
         <hr>
-        <div class="text-center">
-            <h1 class="text-danger">Bridge</h1>
-            <h1 style="color: #0468BF">TI SOLUTIONS</h1>
+        <div class="asociaciones mb-5">
+            <div class="text-center center-block" style="color: white;">
+                <h1>
+                    <b><span class="text-danger">BRIDGE </span><span style="color: #034959">TI SOLUTIONS</span></b>
+                </h1>
+            </div>
         </div>
         <h5>
             <p>Tenemos para su empresa la mejor
@@ -103,7 +93,6 @@
         <div class="card-deck">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">TI SOLUTIONS</h5>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
                     <p class="card-text text-dark"><strong>INTERNET DEDICADO</strong></p>
@@ -112,7 +101,6 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">TI SOLUTIONS</h5>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
                     <p class="card-text text-dark"><strong>VIDEO STREAMING</strong></p>
@@ -121,7 +109,6 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">TI SOLUTIONS</h5>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
                     <p class="card-text text-dark"><strong>VIDEO CONFERENCIA</strong></p>
@@ -130,7 +117,6 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">TI SOLUTIONS</h5>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
                     <p class="card-text text-dark"><strong>SOFTWARE DE REGISTRO</strong></p>
@@ -139,9 +125,12 @@
             </div>
         </div>
         <hr>
-        <div class="text-center">
-            <h1 class="text-danger">Bridge</h1>
-            <h1 style="color: #034959">OPC LOGÌSTICA</h1>
+        <div class="asociaciones mb-5">
+            <div class="text-center center-block" style="color: white;">
+                <h1>
+                    <b><span class="text-danger">BRIDGE </span><span style="color: #034959">OPC LOGÌSTICA</span></b>
+                </h1>
+            </div>
         </div>
         <h5>
             <p>Más que una empresa prestadora
@@ -161,7 +150,6 @@
         <div class="card-deck">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">OPC LOGÌSTICA</h5>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
                     <p class="card-text text-dark"><strong>OPERACIÒN LOGÌSTICA</strong></p>
@@ -170,7 +158,6 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">OPC LOGÌSTICA</h5>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
                     <p class="card-text text-dark"><strong>DESARROLLO Y PARTICIPACIÒN DE EVENTOS MASIVOS</strong></p>
@@ -179,7 +166,6 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">OPC LOGÌSTICA</h5>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
                     <p class="card-text text-dark"><strong>EVENTOS COORPORATIVOS</strong></p>
@@ -188,7 +174,6 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">OPC LOGÌSTICA</h5>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
                     <p class="card-text text-dark"><strong>PRODUCCION AUDIOVISUAL</strong></p>
@@ -197,9 +182,12 @@
             </div>
         </div>
         <hr>
-        <div class="text-center">
-            <h1 class="text-danger">Bridge</h1>
-            <h1 style="color: #034959">SOCIAL MEDIA</h1>
+        <div class="asociaciones mb-5">
+            <div class="text-center center-block" style="color: white;">
+                <h1>
+                    <b><span class="text-danger">BRIDGE </span><span style="color: #034959">SOCIAL MEDIA</span></b>
+                </h1>
+            </div>
         </div>
         <h5>
             <p>Somos una division especializada
@@ -226,7 +214,6 @@
         <div class="card-deck">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">SOCIAL MEDIA</h5>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
                     <p class="card-text text-dark"><strong>DESARROLLO DE CAMPAÑAS ONLINE</strong></p>
@@ -235,7 +222,6 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">SOCIAL MEDIA</h5>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
                     <p class="card-text text-dark"><strong>SOCIAL MEDIA</strong></p>
@@ -244,13 +230,18 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">SOCIAL MEDIA</h5>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
                     <p class="card-text text-dark"><strong>PRODUCCIÒN MULTIPLATAFORMA NARRATIVA TRANSMEDIA</strong></p>
                     <a href="#" data-toggle="modal" data-target="#PRODUCCION_MULTIPLATAFORMA" class="stretched-link"></a>
                 </div>
             </div>
+        </div>
+        <div class="text-center mb-3">
+            <h3>CONOCE NUESTRO BROCHURE</h3>
+            <a href="{{ asset('BROCHURE/BROCHURE -BRIDGE 2021.pdf') }}" target="_blank">
+                <img src="{{ asset('img/pdf.png') }}" alt="">
+            </a>
         </div>
     </div>
 @endsection

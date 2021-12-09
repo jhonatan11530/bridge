@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>BRIDGE ENTERTAINMENT</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
@@ -23,7 +23,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
             <img src="{{ asset('img/BRIDGE-LOGO.png') }}" class="d-inline-block align-top" alt="page not Found">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -41,17 +41,45 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/servicio">SERVICIOS</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item">
                     <a class="nav-link" href="/contacto">CONTACTO</a>
                 </li>
             </ul>
         </div>
     </nav>
-
+    <div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="{{ asset('img/presentacion/home-slider-6.jpg') }}" class="d-block w-100"
+                    alt="page not Found">
+            </div>
+            <div class="carousel-item">
+                <img src="{{ asset('img/presentacion/home-slider-6.jpg') }}" class="d-block w-100"
+                    alt="page not Found">
+            </div>
+            <div class="carousel-item">
+                <img src="{{ asset('img/presentacion/home-slider-6.jpg') }}" class="d-block w-100"
+                    alt="page not Found">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </button>
+    </div>
     @yield('name')
 
     <div class="modal fade" id="CREATIVEHOUSE" tabindex="-1" aria-labelledby="CreativeHouse" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="CreativeHouse">BTL</h5>
@@ -90,7 +118,7 @@
         </div>
     </div>
     <div class="modal fade" id="ARQUITECTURA" tabindex="-1" aria-labelledby="ARQUITECTURA" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="ARQUITECTURA">ARQUITECTURA EFÌMERA</h5>
@@ -129,7 +157,7 @@
         </div>
     </div>
     <div class="modal fade" id="CAMPAÑAS" tabindex="-1" aria-labelledby="CAMPAÑAS" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="CAMPAÑAS">CAMPAÑAS</h5>
@@ -163,7 +191,7 @@
         </div>
     </div>
     <div class="modal fade" id="MATERIAL" tabindex="-1" aria-labelledby="MATERIAL PROMOCIONAL" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="MATERIAL">MATERIAL PROMOCIONAL</h5>
@@ -200,7 +228,7 @@
 
     <div class="modal fade" id="INTERNET_DEDICADO" tabindex="-1" aria-labelledby="INTERNET_DEDICADO"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="INTERNET_DEDICADO">INTERNET DEDICADO</h5>
@@ -231,7 +259,7 @@
     </div>
     <div class="modal fade" id="VIDEO_STREAMING" tabindex="-1" aria-labelledby="VIDEO_STREAMING"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="VIDEO_STREAMING">INTERNET DEDICADO</h5>
@@ -262,7 +290,7 @@
     </div>
     <div class="modal fade" id="VIDEO_CONFERENCIA" tabindex="-1" aria-labelledby="VIDEO_CONFERENCIA"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="VIDEO_CONFERENCIA">VIDEO CONFERENCIA</h5>
@@ -292,7 +320,7 @@
         </div>
     </div>
     <div class="modal fade" id="SOFTWARE" tabindex="-1" aria-labelledby="SOFTWARE DE REGISTRO" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="SOFTWARE DE REGISTRO">SOFTWARE DE REGISTRO</h5>
@@ -325,7 +353,7 @@
 
     <div class="modal fade" id="OPERACION_LOGISTICA" tabindex="-1" aria-labelledby="OPERACION_LOGISTICA"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="OPERACION_LOGISTICA">OPERACIÒN LOGÌSTICA</h5>
@@ -361,7 +389,7 @@
     </div>
     <div class="modal fade" id="DESARROLLO_PARTICIPACION" tabindex="-1" aria-labelledby="DESARROLLO_PARTICIPACION"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="DESARROLLO_PARTICIPACION">DESARROLLO Y PARTICIPACIÒN DE EVENTOS
@@ -399,7 +427,7 @@
     </div>
     <div class="modal fade" id="EVENTOS_COORPORATIVOS" tabindex="-1" aria-labelledby="EVENTOS_COORPORATIVOS"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="EVENTOS_COORPORATIVOS">EVENTOS COORPORATIVOS</h5>
@@ -430,7 +458,7 @@
     </div>
     <div class="modal fade" id="PRODUCCION_AUDIOVISUAL" tabindex="-1" aria-labelledby="PRODUCCION_AUDIOVISUAL"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="PRODUCCION_AUDIOVISUAL">PRODUCCION AUDIOVISUAL</h5>
@@ -498,7 +526,7 @@
 
     <div class="modal fade" id="DESARROLLO_CAMPAÑAS" tabindex="-1" aria-labelledby="DESARROLLO_CAMPAÑAS"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="DESARROLLO_CAMPAÑAS">DESARROLLO DE CAMPAÑAS ONLINE</h5>
@@ -547,7 +575,7 @@
         </div>
     </div>
     <div class="modal fade" id="SOCIAL_MEDIA" tabindex="-1" aria-labelledby="SOCIAL_MEDIA" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="SOCIAL_MEDIA">DESARROLLO DE CAMPAÑAS ONLINE</h5>
@@ -560,10 +588,16 @@
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators12" data-slide-to="0" class="active">
                             </li>
+                            <li data-target="#carouselExampleIndicators12" data-slide-to="1">
+                            </li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="{{ asset('img/SOCIAL_MEDIA.jpeg') }}" class="d-block"
+                                    style="width: 100%;height: 300px;" alt="image not found">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" class="d-block"
                                     style="width: 100%;height: 300px;" alt="image not found">
                             </div>
                         </div>
@@ -572,7 +606,7 @@
                         influyentes en la actualidad y
                         las Redes Sociales no podían
                         ser la excepción.</p>
-                    <span>La importancia de las redes
+                    <p>La importancia de las redes
                         sociales en la actualidad es
                         innegable, cada vez hay más
                         redes sociales en internet
@@ -582,7 +616,21 @@
                         social especíﬁca, accedemos
                         a mucha información
                         clasiﬁcada y segmentada por
-                        el usuario.</span>
+                        el usuario.</p>
+                    <p>Nuestras campañas incluyen las
+                        herramientas
+                        como:</p>
+                    <ul style="color: #034959">
+                        <li>Minería de Datos</li>
+                        <li>CRM</li>
+                        <li>Growth Hacking</li>
+                    </ul>
+                    <span>Tenemos alianzas con Google y
+                        Facebook para los análisis prospectivos
+                        de resultados y la ejecución de
+                        campañas que aprovechen técnicas como
+                        el remarketing y el re direccionamiento
+                        de contenidos.</span>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -592,7 +640,7 @@
     </div>
     <div class="modal fade" id="PRODUCCION_MULTIPLATAFORMA" tabindex="-1" aria-labelledby="SOCIAL_MEDIA"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="PRODUCCION_MULTIPLATAFORMA">PRODUCCIÒN MULTIPLATAFORMA NARRATIVA
@@ -609,25 +657,14 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" class="d-block"
+                                <img src="{{ asset('img/PRODUCCION_MULTIPLATAFORMA.png') }}" class="d-block"
                                     style="width: 100%;height: 300px;" alt="image not found">
                             </div>
                         </div>
                     </div>
-                    <p>Nuestras campañas incluyen las
-                        herramientas
-                        como:</p>
-                    <ul>
-                        <li>Minería de Datos</li>
-                        <li>CRM</li>
-                        <li>Growth Hacking</li>
-                    </ul>
-                    <span>Tenemos alianzas con Google y
-                        Facebook para los análisis prospectivos
-                        de resultados y la ejecución de
-                        campañas que aprovechen técnicas como
-                        el remarketing y el re direccionamiento
-                        de contenidos.</span>
+                    <p>Tenemos la capacidad para englobar audiencias a través de distntos medios.
+                        Nuestro amplio recorrido experiencial, nos permite crear para usted y su empresa
+                        el impacto mediá o que precisa.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -648,7 +685,6 @@
                                 d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
                             <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                         </svg>
-
                     </p>
                     <p>
                         <strong>AV ## ### ####</strong>
@@ -661,7 +697,6 @@
                                 d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
                             <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
                         </svg>
-
                     </p>
                     <p>
                         <strong>Telefono: <a href="tel:+576024837979" class="text-white">(602)4837979</a></strong>
@@ -682,7 +717,6 @@
                     <p>
                         <strong>Email : <a href="mailto:info@bridge.com.co"
                                 class="text-white">info@bridge.com.co</a></strong>
-
                     </p>
                     <p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
@@ -691,7 +725,6 @@
                                 d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
                             <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
                         </svg>
-
                     </p>
                     <p>
                         <strong>Horario : Lunes a Viernes 8.00-18.00</strong>
