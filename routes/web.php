@@ -22,6 +22,9 @@ Route::get('/equipo', function () {
 Route::get('/servicio', function () {
     return view('servicio');
 });
+Route::get('/nosotros', function () {
+    return view('nosotros');
+});
 Route::get('/contacto', function () {
     return view('contacto');
 });

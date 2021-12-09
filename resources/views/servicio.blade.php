@@ -1,10 +1,17 @@
 @extends('layout.plantilla')
 @section('name')
+    <div class="text-center mb-5">
+        <h3>CONOCE NUESTRO BROCHURE</h3>
+        <a href="{{ asset('BROCHURE/BROCHURE -BRIDGE 2021.pdf') }}" target="_blank">
+            <img src="{{ asset('img/pdf.png') }}" alt="">
+        </a>
+    </div>
     <div class="container-fluid text-center mb-5">
-        <div class="asociaciones mb-5">
+        <h1 style="color: red">SOLUCIONES CREATIVAS</h1>
+        <div class="sliderparallaxback mb-5">
             <div class="text-center center-block" style="color: white;">
                 <h1>
-                    <b><span class="text-danger">BRIDGE </span><span style="color: #034959">CREATIVE HOUSE</span></b>
+                    <b>BRIDGE CREATIVE HOUSE</b>
                 </h1>
             </div>
         </div>
@@ -25,42 +32,50 @@
         <div class="card-deck">
             <div class="card">
                 <div class="card-body">
+                    <p class="card-text text-dark"><strong>BTL</strong></p>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
-                    <p class="card-text text-dark"><strong>BTL</strong></p>
+                    <p class="card-text text-danger"><strong>CONOCER MÁS</strong></p>
                     <a href="#" data-toggle="modal" data-target="#CREATIVEHOUSE" class="stretched-link"></a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
+                    <p class="card-text text-dark"><strong>ARQUITECTURA EFÌMERA</strong></p>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
-                    <p class="card-text text-dark"><strong>ARQUITECTURA EFÌMERA</strong></p>
+                    <p class="card-text text-danger"><strong>CONOCER MÁS</strong></p>
                     <a href="#" data-toggle="modal" data-target="#ARQUITECTURA" class="stretched-link"></a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
+                    <p class="card-text text-dark"><strong>CAMPAÑAS</strong></p>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
-                    <p class="card-text text-dark"><strong>CAMPAÑAS</strong></p>
+                    <p class="card-text text-danger"><strong>CONOCER MÁS</strong></p>
                     <a href="#" data-toggle="modal" data-target="#CAMPAÑAS" class="stretched-link"></a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
+                    <p class="card-text text-dark"><strong>MATERIAL PROMOCIONAL</strong></p>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
-                    <p class="card-text text-dark"><strong>MATERIAL PROMOCIONAL</strong></p>
+                    <p class="card-text text-danger"><strong>CONOCER MÁS</strong></p>
                     <a href="#" data-toggle="modal" data-target="#MATERIAL" class="stretched-link"></a>
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="asociaciones mb-5">
+    </div>
+    <div class="parallax mb-5">
+    </div>
+    <div class="container-fluid text-center mb-5">
+        <h1 style="color: red">SOLUCIONES TECNOLÓGICAS</h1>
+        <div class="sliderparallaxback mb-5">
             <div class="text-center center-block" style="color: white;">
                 <h1>
-                    <b><span class="text-danger">BRIDGE </span><span style="color: #034959">TI SOLUTIONS</span></b>
+                    <b>BRIDGE TI SOLUTIONS</b>
                 </h1>
             </div>
         </div>
@@ -78,42 +93,50 @@
         <div class="card-deck">
             <div class="card">
                 <div class="card-body">
+                    <p class="card-text text-dark"><strong>INTERNET DEDICADO</strong></p>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
-                    <p class="card-text text-dark"><strong>INTERNET DEDICADO</strong></p>
+                    <p class="card-text text-danger"><strong>CONOCER MÁS</strong></p>
                     <a href="#" data-toggle="modal" data-target="#INTERNET_DEDICADO" class="stretched-link"></a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
+                    <p class="card-text text-dark"><strong>VIDEO STREAMING</strong></p>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
-                    <p class="card-text text-dark"><strong>VIDEO STREAMING</strong></p>
+                    <p class="card-text text-danger"><strong>CONOCER MÁS</strong></p>
                     <a href="#" data-toggle="modal" data-target="#VIDEO_STREAMING" class="stretched-link"></a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
+                    <p class="card-text text-dark"><strong>VIDEO CONFERENCIA</strong></p>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
-                    <p class="card-text text-dark"><strong>VIDEO CONFERENCIA</strong></p>
+                    <p class="card-text text-danger"><strong>CONOCER MÁS</strong></p>
                     <a href="#" data-toggle="modal" data-target="#VIDEO_CONFERENCIA" class="stretched-link"></a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
+                    <p class="card-text text-dark"><strong>SOFTWARE DE REGISTRO</strong></p>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
-                    <p class="card-text text-dark"><strong>SOFTWARE DE REGISTRO</strong></p>
+                    <p class="card-text text-danger"><strong>CONOCER MÁS</strong></p>
                     <a href="#" data-toggle="modal" data-target="#SOFTWARE" class="stretched-link"></a>
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="asociaciones mb-5">
+    </div>
+    <div class="parallax mb-5">
+    </div>
+    <div class="container-fluid text-center mb-5">
+        <h1 style="color: red">SOLUCIONES LOGÌSTICOS</h1>
+        <div class="sliderparallaxback mb-5">
             <div class="text-center center-block" style="color: white;">
                 <h1>
-                    <b><span class="text-danger">BRIDGE </span><span style="color: #034959">OPC LOGÌSTICA</span></b>
+                    <b>BRIDGE OPC LOGÌSTICA</b>
                 </h1>
             </div>
         </div>
@@ -135,42 +158,50 @@
         <div class="card-deck">
             <div class="card">
                 <div class="card-body">
+                    <p class="card-text text-dark"><strong>OPERACIÒN LOGÌSTICA</strong></p>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
-                    <p class="card-text text-dark"><strong>OPERACIÒN LOGÌSTICA</strong></p>
+                    <p class="card-text text-danger"><strong>CONOCER MÁS</strong></p>
                     <a href="#" data-toggle="modal" data-target="#OPERACION_LOGISTICA" class="stretched-link"></a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
+                    <p class="card-text text-dark"><strong>DESARROLLO Y PARTICIPACIÒN DE EVENTOS MASIVOS</strong></p>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
-                    <p class="card-text text-dark"><strong>DESARROLLO Y PARTICIPACIÒN DE EVENTOS MASIVOS</strong></p>
+                    <p class="card-text text-danger"><strong>CONOCER MÁS</strong></p>
                     <a href="#" data-toggle="modal" data-target="#DESARROLLO_PARTICIPACION" class="stretched-link"></a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
+                    <p class="card-text text-dark"><strong>EVENTOS COORPORATIVOS</strong></p>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
-                    <p class="card-text text-dark"><strong>EVENTOS COORPORATIVOS</strong></p>
+                    <p class="card-text text-danger"><strong>CONOCER MÁS</strong></p>
                     <a href="#" data-toggle="modal" data-target="#EVENTOS_COORPORATIVOS" class="stretched-link"></a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
+                    <p class="card-text text-dark"><strong>PRODUCCION AUDIOVISUAL</strong></p>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
-                    <p class="card-text text-dark"><strong>PRODUCCION AUDIOVISUAL</strong></p>
+                    <p class="card-text text-danger"><strong>CONOCER MÁS</strong></p>
                     <a href="#" data-toggle="modal" data-target="#PRODUCCION_AUDIOVISUAL" class="stretched-link"></a>
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="asociaciones mb-5">
+    </div>
+    <div class="parallax mb-5">
+    </div>
+    <div class="container-fluid text-center mb-5">
+        <h1 style="color: red">SOLUCIONES SOCIALES</h1>
+        <div class="sliderparallaxback mb-5">
             <div class="text-center center-block" style="color: white;">
                 <h1>
-                    <b><span class="text-danger">BRIDGE </span><span style="color: #034959">SOCIAL MEDIA</span></b>
+                    <b>BRIDGE SOCIAL MEDIA</b>
                 </h1>
             </div>
         </div>
@@ -199,34 +230,31 @@
         <div class="card-deck">
             <div class="card">
                 <div class="card-body">
+                    <p class="card-text text-dark"><strong>DESARROLLO DE CAMPAÑAS ONLINE</strong></p>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
-                    <p class="card-text text-dark"><strong>DESARROLLO DE CAMPAÑAS ONLINE</strong></p>
+                    <p class="card-text text-danger"><strong>CONOCER MÁS</strong></p>
                     <a href="#" data-toggle="modal" data-target="#DESARROLLO_CAMPAÑAS" class="stretched-link"></a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
+                    <p class="card-text text-dark"><strong>SOCIAL MEDIA</strong></p>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
-                    <p class="card-text text-dark"><strong>SOCIAL MEDIA</strong></p>
+                    <p class="card-text text-danger"><strong>CONOCER MÁS</strong></p>
                     <a href="#" data-toggle="modal" data-target="#SOCIAL_MEDIA" class="stretched-link"></a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
+                    <p class="card-text text-dark"><strong>PRODUCCIÒN MULTIPLATAFORMA NARRATIVA TRANSMEDIA</strong></p>
                     <img src="{{ asset('img/BRIDGE-LOGO-COLOR.png') }}" style="width: 150px;height: 150px;"
                         alt="Image page not found">
-                    <p class="card-text text-dark"><strong>PRODUCCIÒN MULTIPLATAFORMA NARRATIVA TRANSMEDIA</strong></p>
+                    <p class="card-text text-danger"><strong>CONOCER MÁS</strong></p>
                     <a href="#" data-toggle="modal" data-target="#PRODUCCION_MULTIPLATAFORMA" class="stretched-link"></a>
                 </div>
             </div>
-        </div>
-        <div class="text-center mb-3">
-            <h3>CONOCE NUESTRO BROCHURE</h3>
-            <a href="{{ asset('BROCHURE/BROCHURE -BRIDGE 2021.pdf') }}" target="_blank">
-                <img src="{{ asset('img/pdf.png') }}" alt="">
-            </a>
         </div>
     </div>
 @endsection

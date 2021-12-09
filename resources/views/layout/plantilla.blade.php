@@ -43,6 +43,9 @@
                     <a class="nav-link" href="/servicio">SERVICIOS</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="/nosotros">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/contacto">CONTACTO</a>
                 </li>
             </ul>
@@ -688,7 +691,7 @@
                         </svg>
                     </p>
                     <p>
-                        <strong>AV ## ### ####</strong>
+                        <strong>AV 3H Norte #37N-45 of 101</strong>
                         <strong>Cali, Valle del Cauca</strong>
                     </p>
                     <p>
