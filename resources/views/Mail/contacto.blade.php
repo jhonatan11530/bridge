@@ -7,10 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    {{$mensaje['nombre_completo']}}
-    {{$mensaje['telefono']}}
-    {{$mensaje['Correo']}}
-    {{$mensaje['servicio']}}
-    {{$mensaje['Mensaje']}}
+    <p>Nuevo Mensaje</p>
+    <span>datos de contacto de la persona interesada en un servicio de bridge</span>
+    <ul>
+        <li>Nombre completo : {{$mensaje['nombre_completo']}}</li>
+        <li>Telefono : {{$mensaje['telefono']}}</li>
+        <li>Correo Electronico : {{$mensaje['Correo']}}</li>
+        <li>Servicio Interesado : {{$mensaje['servicio']}}</li>
+        <li>Mensaje o Asunto : {{$mensaje['Mensaje']}}</li>
+    </ul>
+    <p>Este mensaje es automatico por favor no responde</p>
 </body>
 </html>
