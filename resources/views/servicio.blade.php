@@ -1,20 +1,5 @@
 @extends('layout.plantilla')
 @section('name')
-    <style>
-        .asociaciones {
-            background-image: url("/img/OPERACION_LOGISTICA2.jpeg");
-            min-height: 150px;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-    </style>
-
     <div class="container-fluid text-center mb-5">
         <div class="asociaciones mb-5">
             <div class="text-center center-block" style="color: white;">

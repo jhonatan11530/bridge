@@ -1,0 +1,22 @@
+.sliderparallax {
+    background-image: url("/img/OPERACION_LOGISTICA2.jpeg");
+    min-height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sliderparallaxback {
+    background-color: #343a40;
+    min-height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
