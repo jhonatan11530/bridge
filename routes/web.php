@@ -28,3 +28,5 @@ Route::get('/nosotros', function () {
 Route::get('/contacto', function () {
     return view('contacto');
 });
+
+Route::post('Contacto','ContactoController@Contacto');

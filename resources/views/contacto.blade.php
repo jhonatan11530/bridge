@@ -21,7 +21,7 @@
             </div>
             <div class="col-6">
                 <label>Correo <span style="color: red">*</span></label>
-                <input type="text" name="" class="form-control" required>
+                <input type="text" name="Correo" class="form-control" required>
             </div>
             <div class="col-6">
                 <div class="form-group">
@@ -38,7 +38,7 @@
             <div class="col-12">
                 <div class="form-group">
                     <label>Mensaje</label>
-                    <textarea name="observaciones" class="form-control"></textarea>
+                    <textarea name="Mensaje" class="form-control"></textarea>
                 </div>
             </div>
         </div>
