@@ -1,6 +1,5 @@
 @extends('layout.plantilla')
 @section('name')
-
     <div class="container">
         <div class="text-center text-muted">
             <h1>Contacto</h1>

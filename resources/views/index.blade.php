@@ -1,9 +1,8 @@
 @extends('layout.plantilla')
 @section('name')
     <div class="container-fluid text-center">
-
         <div class="text-muted mb-5">
-            <h1>Nuestros Servicios</h1>
+            <h1>Conoce Nuestros Servicios</h1>
         </div>
         <div class="sliderparallaxback mb-5">
             <div class="center-block" style="color: white;">
