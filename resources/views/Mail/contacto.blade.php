@@ -9,6 +9,10 @@
 <body>
     <p>Nuevo Mensaje</p>
     <span>datos de contacto de la persona interesada en un servicio de bridge</span>
+    <p>
+        <img src="{{ $mensaje->embed(public_path() . '/img/BRIDGE-LOGO-COLOR.png') }}"
+            alt="Image not Found" style="width: 250px;height: 150px;" />
+    </p>
     <ul>
         <li>Nombre completo : {{$mensaje['nombre_completo']}}</li>
         <li>Telefono : {{$mensaje['telefono']}}</li>

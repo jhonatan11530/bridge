@@ -16,7 +16,8 @@
             <div class="col-6">
                 <div class="form-group">
                     <label>telefono <span style="color: red">*</span></label>
-                    <input type="number" min="0" name="telefono" class="form-control" required>
+                    <input type="number" min="0" name="telefono" class="form-control"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" required>
                 </div>
             </div>
             <div class="col-6">
